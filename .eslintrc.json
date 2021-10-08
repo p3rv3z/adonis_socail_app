@@ -3,5 +3,6 @@
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": ["error"]
-  }
+  },
+  "project": "social_app/tsconfig.json"
 }
