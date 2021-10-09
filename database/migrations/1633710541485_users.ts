@@ -6,8 +6,8 @@ export default class UsersSchema extends BaseSchema {
   public async up () {
     this.schema.createTable(this.tableName, (table) => {
       table.increments('id').primary()
-      table.string('first_name', 191)
-      table.string('last_name', 191)
+      table.string('first_name', 26)
+      table.string('last_name', 26)
       table.string('username', 191).unique()
       table.string('email', 191).unique()
       table.string('avatar', 191).defaultTo('default_avatar.png').nullable()
